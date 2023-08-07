@@ -1,0 +1,141 @@
+body{margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+
+#clockback{ display:inline-block;
+
+ height: 39vw;
+ width: 40vw;
+ background: url(clock.png);
+ background-size: 100%;
+ border-radius: 500px;
+ border: 10px solid rgb(212, 212, 212);
+ position: relative;
+ top: 50px;
+
+ display: flex;
+ margin: auto;
+ box-shadow: -10px -15px 30px white ,10px 15px 30px white;
+ 
+ 
+}
+
+
+#hour , #min, #sec{
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    transform-origin: bottom;
+
+}
+
+#hour{
+    width: 2%;
+    height: 20%;
+    top: 30.7%;
+    left: 49.5%;
+   
+   
+}
+#min{
+    width: 2%;
+    height: 25%;
+    top: 25%;
+    left: 49.5%;
+    
+    
+
+}
+#sec{
+    width: 1%;
+    height: 36%;
+    top: 13.5%;
+    left: 49.5%;
+
+  
+}
+
+/* --------------------------------------------- */
+
+
+.digital{ display: flex;
+    width: 40vh;
+    height: 150px;
+    /* border: 5px solid red; */
+    /* box-shadow: inset 10px 7px 75px red; */
+    border-radius: 25px;
+
+   
+   position: absolute;
+   /* margin:auto; */
+  
+/* justify-content: center; */
+/* align-items: center;    */
+color: white;
+
+
+}
+
+#dighr{border: 3px solid white;
+  padding: 5px 15px;
+  margin: 5px 15px;
+margin-left: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+  
+border-radius: 6px; 
+box-shadow: 10px 2px 15px white ,inset 1px 1px 35px red;
+  
+
+
+}
+
+#digmin{
+    border: 3px solid white;
+    padding: 5px 15px;
+  margin: 5px 15px;
+  
+box-shadow: 10px 2px 15px white ,inset 1px 1px 35px red;
+  
+ 
+    
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    
+border-radius: 6px;   
+
+
+}
+
+#digsec
+{border: 3px solid white;
+    padding: 5px 15px;
+    margin: 5px 15px;
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+   
+box-shadow: 10px 2px 15px white ,inset 1px 1px 35px red;
+  
+border-radius: 6px;   
+
+
+}
+
+#milsec{
+    border: 3px solid white;
+    padding: 5px 20px;
+    margin: 5px 20px;
+    height: 50px;
+    min-width: 60px;
+    font-size: 35px;
+   
+box-shadow: 10px 2px 15px white ,inset 1px 1px 35px red;
+  
+border-radius: 6px;
+}
